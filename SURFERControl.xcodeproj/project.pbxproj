@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2919834E1DEE892500B98150 /* SURFERPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 2919834D1DEE892500B98150 /* SURFERPeripheral.m */; };
+		2981D3DE24BC2CEC00F83238 /* TagInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2981D3DD24BC2CEC00F83238 /* TagInfoViewController.m */; };
+		2981D3E124BC3A9F00F83238 /* TagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2981D3E024BC3A9F00F83238 /* TagListViewController.m */; };
+		2981D3E424BC3C5C00F83238 /* RFIDTagList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2981D3E324BC3C5C00F83238 /* RFIDTagList.m */; };
+		2981D3E724BC3C6F00F83238 /* RFIDTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 2981D3E624BC3C6F00F83238 /* RFIDTag.m */; };
+		29A1C00A24ADBD120051E45B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A1C00924ADBD120051E45B /* LaunchScreen.storyboard */; };
+		29B438301A391DE1006611E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4382F1A391DE1006611E7 /* main.m */; };
+		29B438331A391DE1006611E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B438321A391DE1006611E7 /* AppDelegate.m */; };
+		29B4383B1A391DE1006611E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B4383A1A391DE1006611E7 /* Images.xcassets */; };
+		29B438551A392978006611E7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B438541A392978006611E7 /* TableViewController.m */; };
+		29B438571A39299C006611E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B438561A39299C006611E7 /* Main.storyboard */; };
+		29CAC0CB22AF956F00ABEE24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CAC0CA22AF956F00ABEE24 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29B438441A391DE1006611E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B438221A391DE1006611E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B438291A391DE1006611E7;
+			remoteInfo = SURFERControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2919834D1DEE892500B98150 /* SURFERPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SURFERPeripheral.m; sourceTree = "<group>"; };
+		2919834F1DEE894200B98150 /* SURFERPeripheral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SURFERPeripheral.h; sourceTree = "<group>"; };
+		2981D3DC24BC2CEC00F83238 /* TagInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagInfoViewController.h; sourceTree = "<group>"; };
+		2981D3DD24BC2CEC00F83238 /* TagInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagInfoViewController.m; sourceTree = "<group>"; };
+		2981D3DF24BC3A9F00F83238 /* TagListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagListViewController.h; sourceTree = "<group>"; };
+		2981D3E024BC3A9F00F83238 /* TagListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagListViewController.m; sourceTree = "<group>"; };
+		2981D3E224BC3C5C00F83238 /* RFIDTagList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFIDTagList.h; sourceTree = "<group>"; };
+		2981D3E324BC3C5C00F83238 /* RFIDTagList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFIDTagList.m; sourceTree = "<group>"; };
+		2981D3E524BC3C6F00F83238 /* RFIDTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFIDTag.h; sourceTree = "<group>"; };
+		2981D3E624BC3C6F00F83238 /* RFIDTag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFIDTag.m; sourceTree = "<group>"; };
+		29A1C00924ADBD120051E45B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29B4382A1A391DE1006611E7 /* SURFERControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SURFERControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B4382F1A391DE1006611E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B438311A391DE1006611E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29B438321A391DE1006611E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29B4383A1A391DE1006611E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29B438431A391DE1006611E7 /* SURFERControl.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SURFERControl.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B438481A391DE1006611E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B438531A392978006611E7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		29B438541A392978006611E7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		29B438561A39299C006611E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		29CAC0CA22AF956F00ABEE24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B438271A391DE1006611E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B438401A391DE1006611E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B438211A391DE1006611E7 = {
+			isa = PBXGroup;
+			children = (
+				29CAC0CA22AF956F00ABEE24 /* Default-568h@2x.png */,
+				29B4382C1A391DE1006611E7 /* SURFERControl */,
+				29B4382B1A391DE1006611E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29B4382B1A391DE1006611E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29B4382A1A391DE1006611E7 /* SURFERControl.app */,
+				29B438431A391DE1006611E7 /* SURFERControl.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B4382C1A391DE1006611E7 /* SURFERControl */ = {
+			isa = PBXGroup;
+			children = (
+				29B438311A391DE1006611E7 /* AppDelegate.h */,
+				29B438321A391DE1006611E7 /* AppDelegate.m */,
+				29B438531A392978006611E7 /* TableViewController.h */,
+				29B438541A392978006611E7 /* TableViewController.m */,
+				2919834F1DEE894200B98150 /* SURFERPeripheral.h */,
+				2919834D1DEE892500B98150 /* SURFERPeripheral.m */,
+				29B438561A39299C006611E7 /* Main.storyboard */,
+				2981D3DF24BC3A9F00F83238 /* TagListViewController.h */,
+				2981D3E024BC3A9F00F83238 /* TagListViewController.m */,
+				2981D3E224BC3C5C00F83238 /* RFIDTagList.h */,
+				2981D3E324BC3C5C00F83238 /* RFIDTagList.m */,
+				2981D3E524BC3C6F00F83238 /* RFIDTag.h */,
+				2981D3E624BC3C6F00F83238 /* RFIDTag.m */,
+				2981D3DC24BC2CEC00F83238 /* TagInfoViewController.h */,
+				2981D3DD24BC2CEC00F83238 /* TagInfoViewController.m */,
+				29A1C00924ADBD120051E45B /* LaunchScreen.storyboard */,
+				29B4383A1A391DE1006611E7 /* Images.xcassets */,
+				29B4382D1A391DE1006611E7 /* Supporting Files */,
+			);
+			path = SURFERControl;
+			sourceTree = "<group>";
+		};
+		29B4382D1A391DE1006611E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29B438481A391DE1006611E7 /* Info.plist */,
+				29B4382F1A391DE1006611E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29B438291A391DE1006611E7 /* SURFERControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B4384D1A391DE1006611E7 /* Build configuration list for PBXNativeTarget "SURFERControl" */;
+			buildPhases = (
+				29B438261A391DE1006611E7 /* Sources */,
+				29B438271A391DE1006611E7 /* Frameworks */,
+				29B438281A391DE1006611E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SURFERControl;
+			productName = SURFERControl;
+			productReference = 29B4382A1A391DE1006611E7 /* SURFERControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29B438421A391DE1006611E7 /* SURFERControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B438501A391DE1006611E7 /* Build configuration list for PBXNativeTarget "SURFERControlTests" */;
+			buildPhases = (
+				29B4383F1A391DE1006611E7 /* Sources */,
+				29B438401A391DE1006611E7 /* Frameworks */,
+				29B438411A391DE1006611E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29B438451A391DE1006611E7 /* PBXTargetDependency */,
+			);
+			name = SURFERControlTests;
+			productName = SURFERControlTests;
+			productReference = 29B438431A391DE1006611E7 /* SURFERControl.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B438221A391DE1006611E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "Your Org";
+				TargetAttributes = {
+					29B438291A391DE1006611E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4FWK6EN15B;
+						ProvisioningStyle = Manual;
+					};
+					29B438421A391DE1006611E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4FWK6EN15B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29B438291A391DE1006611E7;
+					};
+				};
+			};
+			buildConfigurationList = 29B438251A391DE1006611E7 /* Build configuration list for PBXProject "SURFERControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B438211A391DE1006611E7;
+			productRefGroup = 29B4382B1A391DE1006611E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29B438291A391DE1006611E7 /* SURFERControl */,
+				29B438421A391DE1006611E7 /* SURFERControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B438281A391DE1006611E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B4383B1A391DE1006611E7 /* Images.xcassets in Resources */,
+				29A1C00A24ADBD120051E45B /* LaunchScreen.storyboard in Resources */,
+				29B438571A39299C006611E7 /* Main.storyboard in Resources */,
+				29CAC0CB22AF956F00ABEE24 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B438411A391DE1006611E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B438261A391DE1006611E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2919834E1DEE892500B98150 /* SURFERPeripheral.m in Sources */,
+				29B438331A391DE1006611E7 /* AppDelegate.m in Sources */,
+				29B438551A392978006611E7 /* TableViewController.m in Sources */,
+				29B438301A391DE1006611E7 /* main.m in Sources */,
+				2981D3E424BC3C5C00F83238 /* RFIDTagList.m in Sources */,
+				2981D3E724BC3C6F00F83238 /* RFIDTag.m in Sources */,
+				2981D3DE24BC2CEC00F83238 /* TagInfoViewController.m in Sources */,
+				2981D3E124BC3A9F00F83238 /* TagListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B4383F1A391DE1006611E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29B438451A391DE1006611E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B438291A391DE1006611E7 /* SURFERControl */;
+			targetProxy = 29B438441A391DE1006611E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29B4384B1A391DE1006611E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4FWK6EN15B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PROVISIONING_PROFILE_SPECIFIER = PPS;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29B4384C1A391DE1006611E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4FWK6EN15B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PROVISIONING_PROFILE_SPECIFIER = PPS;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29B4384E1A391DE1006611E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4FWK6EN15B;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SURFERControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SURFERControl;
+				PRODUCT_NAME = SURFERControl;
+				PROVISIONING_PROFILE_SPECIFIER = PPS;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		29B4384F1A391DE1006611E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4FWK6EN15B;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SURFERControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SURFERControl;
+				PRODUCT_NAME = SURFERControl;
+				PROVISIONING_PROFILE_SPECIFIER = PPS;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		29B438511A391DE1006611E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FWK6EN15B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SURFERControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PBI";
+				PRODUCT_NAME = SURFERControl;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SURFERControl.app/SURFERControl";
+			};
+			name = Debug;
+		};
+		29B438521A391DE1006611E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FWK6EN15B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SURFERControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PBI";
+				PRODUCT_NAME = SURFERControl;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SURFERControl.app/SURFERControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29B438251A391DE1006611E7 /* Build configuration list for PBXProject "SURFERControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B4384B1A391DE1006611E7 /* Debug */,
+				29B4384C1A391DE1006611E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B4384D1A391DE1006611E7 /* Build configuration list for PBXNativeTarget "SURFERControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B4384E1A391DE1006611E7 /* Debug */,
+				29B4384F1A391DE1006611E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B438501A391DE1006611E7 /* Build configuration list for PBXNativeTarget "SURFERControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B438511A391DE1006611E7 /* Debug */,
+				29B438521A391DE1006611E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B438221A391DE1006611E7 /* Project object */;
+}
