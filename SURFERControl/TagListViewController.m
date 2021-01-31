@@ -24,7 +24,9 @@
 //                                                                                  //
 //  Description:                                                                    //
 //  This class defines a view controller for displaying information on all of the   //
-//  recently read RFID tags together.                                               //
+//  recently read RFID tags together. This file uses many of the coding styles and  //
+//  concepts from "iOS Programming, The Big Nerd Ranch Guide" 4th edition, chapter  //
+//  8.                                                                              //
 //                                                                                  //
 //////////////////////////////////////////////////////////////////////////////////////
 

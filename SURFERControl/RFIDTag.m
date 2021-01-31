@@ -24,7 +24,9 @@
 //                                                                                  //
 //  Description:                                                                    //
 //  This class defines an RFID Tag in the iOS software. Each instance of this class //
-//  represents an RFID Tag that was read recently by the reader.                    //
+//  represents an RFID Tag that was read recently by the reader. This file uses some//
+//  of the coding styles and concepts from Big Nerd Ranch's "iOS Programming, 4th   //
+//  Edition".                                                                       //
 //                                                                                  //
 //////////////////////////////////////////////////////////////////////////////////////
 
