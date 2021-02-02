@@ -1447,10 +1447,6 @@ void setRxFilename(char* file_name, void *uData){
     
     self.consoleTextView.text = [self.consoleTextView.text stringByAppendingFormat:@"[%@]: %@\n",[formatter stringFromDate:[NSDate date]], string];
     
-    //[self.consoleTextView setScrollEnabled:NO];
-    //NSRange bottom = NSMakeRange(self.consoleTextView.text.length-1, self.consoleTextView.text.length);
-    //[self.consoleTextView scrollRangeToVisible:bottom];
-    //[self.consoleTextView setScrollEnabled:YES];
 }
 
 //This button clears the log screen. It fills up pretty fast.

@@ -1,9 +1,18 @@
 This text contains two licenses (License #1, License #2). 
-License #1 applies to files containing Nordic Semiconductor BSD3 copyright notices.
+License #1 applies to files containing Nordic Semiconductor copyright notices.
 Licnese #2 applies to files containing Superlative Semiconductor copyright notices.
 
+While Nordic Semiconductor copyright statements in each iOS file do not explicitly 
+reference the BSD3 license below, they are covered as such as described in
+https://devzone.nordicsemi.com/f/nordic-q-a/61055/license-of-ios-blinky-app.
+
+
+The iOS nRF UART app original source can be found with the BSD3 license here:
+https://github.com/NordicPlayground/nrf51-ble-ancs-nus.
+
+
 License #1
-Copyright (c) 2015, Nordic Semiconductor
+Copyright (c) 2013, Nordic Semiconductor ASA
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -16,7 +25,7 @@ modification, are permitted provided that the following conditions are met:
   this list of conditions and the following disclaimer in the documentation
   and/or other materials provided with the distribution.
 
-* Neither the name of IOS-nRF-Beacons nor the names of its
+* Neither the name of Nordic Semiconductor ASA nor the names of its
   contributors may be used to endorse or promote products derived from
   this software without specific prior written permission.
 
