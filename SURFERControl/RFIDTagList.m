@@ -24,7 +24,7 @@
 //                                                                                  //
 //  Description:                                                                    //
 //  This class defines a store of RFID tags that have been recently read by the     //
-//  RFID reader. This file uses of of the coding style and concepts from Big Nerd   //
+//  RFID reader. This file uses some of the coding style and concepts from Big Nerd //
 //  Ranch's "iOS Programming, 4th Edition" Chapter 8.                               //
 //                                                                                  //
 //////////////////////////////////////////////////////////////////////////////////////
